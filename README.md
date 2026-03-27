@@ -37,34 +37,39 @@ Track your progress, share achievements, and compete with the community.
 
 ---
 
+
 ## 🔧 Tech Stack
 
-### Frontend
-| Tech | Role |
-|---|---|
-| Next.js | Framework (SSR, routing) |
-| React | UI components |
-| TypeScript | Type safety |
-| Tailwind CSS | Styling |
-| HeroUI | Component library |
-
-### Backend
-| Tech | Role |
-|---|---|
-| Java 17 | Language |
-| Spring Boot | Application framework |
-| Spring Security | Authentication (JWT) |
-| JPA / Hibernate | ORM |
-| PostgreSQL | Database |
-
-### Infrastructure
-| Tech | Role |
-|---|---|
-| Docker | Containerization |
-| Google Cloud Run | Backend hosting |
-| Vercel | Frontend hosting |
-| AWS S3 | Image storage |
-| Cloudflare | DNS & security |
+<table>
+  <tr>
+    <th>Frontend</th>
+    <th>Backend</th>
+    <th>Infrastructure</th>
+  </tr>
+  <tr>
+    <td valign="top">
+      <b>Next.js</b> — Framework (SSR, routing)<br/>
+      <b>React</b> — UI components<br/>
+      <b>TypeScript</b> — Type safety<br/>
+      <b>Tailwind CSS</b> — Styling<br/>
+      <b>HeroUI</b> — Component library
+    </td>
+    <td valign="top">
+      <b>Java 17</b> — Language<br/>
+      <b>Spring Boot</b> — Application framework<br/>
+      <b>Spring Security</b> — Authentication (JWT)<br/>
+      <b>JPA / Hibernate</b> — ORM<br/>
+      <b>PostgreSQL</b> — Database
+    </td>
+    <td valign="top">
+      <b>Docker</b> — Containerization<br/>
+      <b>Google Cloud Run</b> — Backend hosting<br/>
+      <b>Vercel</b> — Frontend hosting<br/>
+      <b>AWS S3</b> — Image storage<br/>
+      <b>Cloudflare</b> — DNS & security
+</td>
+  </tr>
+</table>
 
 ---
 
@@ -72,16 +77,16 @@ Track your progress, share achievements, and compete with the community.
 
 ```
 ┌─────────────────┐        ┌──────────────────┐
-│   Next.js App   │  HTTP  │  Spring Boot API  │
-│   (Vercel)      │◄──────►│  (Cloud Run)      │
+│   Next.js App   │  HTTP  │  Spring Boot API │
+│   (Vercel)      │◄──────►│  (Cloud Run)     │
 └─────────────────┘        └────────┬─────────┘
                                     │
                     ┌───────────────┼───────────────┐
                     │               │               │
-             ┌──────▼─────┐  ┌─────▼──────┐  ┌────▼────┐
-             │ PostgreSQL  │  │   AWS S3   │  │Cloudflare│
-             │ (Database)  │  │  (Images)  │  │  (DNS)  │
-             └────────────┘  └────────────┘  └─────────┘
+             ┌──────▼─────┐  ┌─────▼──────┐  ┌────▼─────┐
+             │ PostgreSQL │  │   AWS S3   │  │Cloudflare│
+             │ (Database) │  │  (Images)  │  │  (DNS)   │
+             └────────────┘  └────────────┘  └──────────┘
 ```
 
 The frontend is fully decoupled from the backend and communicates via REST API.  
