@@ -89,8 +89,5 @@ The backend handles authentication, business logic, and data persistence.
 Images are stored on AWS S3 and served directly to the client.
 
 ---
-
-## 📁 Related
-
 > The source code for this project is kept private.  
 > Feel free to reach out on [LinkedIn](https://linkedin.com/in/alessandro-lupo) if you want to know more.
