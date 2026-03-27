@@ -1,4 +1,4 @@
-# RankedRecords 🏋️
+# RankedRecords
 
 **Fitness Web App developed by [crimolf](https://github.com/crimolf)**
 
