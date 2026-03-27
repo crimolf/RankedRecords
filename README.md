@@ -1,6 +1,14 @@
 # RankedRecords
 
-**Fitness Web App developed by [crimolf](https://github.com/crimolf)**
+Fitness Web App developed by [crimolf](https://github.com/crimolf)
+<br/>
+
+> 🌐 **Live on** [rankedrecords.com](https://rankedrecords.com)
+
+
+
+
+<br/>
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
